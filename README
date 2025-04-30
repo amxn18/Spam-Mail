@@ -1,0 +1,32 @@
+🧠 SPAM MAIL DETECTION SYSTEM
+
+📌 ABOUT THE PROJECT
+This project detects whether a given email/message is SPAM or NOT SPAM using:
+
+🔹 TF-IDF Vectorization  
+🔹 Logistic Regression  
+🔹 Label Encoding  
+🔹 Streamlit for deployment
+
+🧪 RESULTS
+
+Model               | Accuracy
+-------------------|---------
+Logistic Regression| ✅ ~99.1% (Train)  
+                   | ✅ ~97.8% (Test)
+
+💡 NOTES
+- Clean dataset with minimal preprocessing  
+- TF-IDF helped in effective feature extraction  
+- Logistic Regression performed strongly for binary classification
+
+📨 HOW TO USE
+
+The app takes your message/email and predicts if it's SPAM or NOT SPAM.
+
+You can try messages like:
+
+- "Congratulations! You've won a free cruise trip!"
+- "Are you free to meet at 2 PM today?"
+
+
